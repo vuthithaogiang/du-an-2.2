@@ -42,7 +42,7 @@ a {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 0.9;
 }
 
@@ -87,7 +87,7 @@ a {
 
 }
 
-.nav li.active a::before{
+.nav li.active a::before {
     position: absolute;
     left: -12px;
     top: 6px;
@@ -113,7 +113,8 @@ a {
     margin-left: 42px;
 
 }
-.nav ul li a:hover{
+
+.nav ul li a:hover {
     color: #fff;
 }
 
@@ -139,6 +140,93 @@ a {
     margin-right: 28px;
 }
 
-.header .action>a:first-child:hover{
+.header .action>a:first-child:hover {
     color: #fff;
 }
+
+/* hero */
+
+.hero {
+    background: #10375C;
+    padding-top: 56px;
+    padding-bottom: 65px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+.hero .image {
+    width: 46%;
+    margin-left: auto;
+    display: flex;
+    position: relative;
+
+}
+
+.hero .image .image-left {
+    width: 330px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+
+}
+
+.hero .image .image-right {
+    width: 201px;
+    height: 410px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: 330px;
+
+}
+
+.hero .info h1 {
+    font-weight: 600;
+    font-size: 7.0rem;
+    line-height: 1.14;
+    /* or 114% */
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.hero .info p {
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    /* or 167% */
+
+
+    color: #C9D2DA;
+
+}
+
+.hero .call-now {
+    margin-left: 38px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    /* identical to box height, or 167% */
+
+   
+
+    color: #FFFFFF;
+}
+
+.hero .content-block{
+    margin-top: 50px;
+    width: 44.2%;
+}
+
+.hero .book-now{
+    margin-top: 32px;
+}
+
