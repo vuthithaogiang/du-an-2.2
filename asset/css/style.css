@@ -485,8 +485,84 @@ a {
 
 }
 
-.popular-item:hover{
+.popular-item:hover {
     margin-top: -16px;
-    background-color:#2E80CE;
-   
+    background-color: #2E80CE;
+
+}
+
+/* blog */
+
+.blog {
+    margin-top: 170px;
+
+}
+
+.blog .main-content {
+    display: flex;
+}
+
+.blog .image {
+    width: 50%;
+    position: relative;
+
+}
+
+.blog .blog-content {
+    margin-left: 130px;
+    margin-top: 82px;
+    width: 50%;
+}
+
+.blog .image .image-left {
+
+    display: block;
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.07));
+    border-radius: 6px;
+
+}
+
+.blog .image .image-right {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    width: 332px;
+    height: 370px;
+    border-radius: 6px;
+    top: 21%;
+    left: 41%;
+
+
+}
+
+.blog .blog-content .sub-title,
+.blog .blog-content .desc {
+    width: 80%;
+}
+
+.blog .sub-title {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    /* or 120% */
+
+    letter-spacing: -0.02em;
+
+    color: #10375C;
+
+}
+
+.blog .desc {
+    margin-top: 18px;
+    margin-bottom: 38px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    /* or 167% */
+
+
+    color: #575F66;
 }
