@@ -46,6 +46,22 @@ a {
     opacity: 0.9;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-3 {
+    --line-clamp: 3;
+
+}
+
+.break-all {
+    word-break: break-all;
+}
+
 /* header */
 
 .header {
@@ -331,7 +347,146 @@ a {
 
 }
 
-.services-body-content .btn{
+.services-body-content .btn {
     margin-top: 75px;
     margin-left: 130px;
+}
+
+.service-items .item:first-child .icon {
+    background: #2E80CE;
+    box-shadow: 0px 8px 16px rgba(40, 155, 222, 0.15);
+
+}
+
+.service-items .item {
+    background-color: #fff;
+    padding: 21px 22px 20px;
+
+}
+
+.service-items .item:first-child,
+.service-items .item:hover {
+
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+
+
+.service-items .item:hover .icon {
+    background: #2E80CE;
+    box-shadow: 0px 8px 16px rgba(40, 155, 222, 0.15);
+
+}
+
+/* popular */
+
+.popular {
+    margin-top: 170px;
+    background: #F7FBFF;
+    padding-top: 100px;
+    padding-bottom: 175px;
+}
+
+.popular .heading {
+    margin-right: auto;
+    width: 468px;
+
+}
+
+.popular .heading .sub-title {
+    font-weight: 600;
+    font-size: 5.0rem;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.02em;
+
+    color: #10375C;
+
+}
+
+.popular .heading .desc {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    /* or 167% */
+
+
+    color: #575F66;
+
+}
+
+.popular .popular-items {
+    display: flex;
+    margin-top: 86px;
+    gap: 30px;
+}
+
+.popular .popular-items .popular-item {
+    border-radius: 4px;
+    width: 32%;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    background: #EAF6FF;
+    padding: 16px;
+}
+
+.popular .popular-item .item-body {
+    border-radius: 4px;
+    background-color: #fff;
+    height: 100%;
+    padding-top: 45px;
+    padding-left: 44px;
+    padding-right: 42px;
+}
+
+
+.popular-item .item-body .icon img {
+    width: 68px;
+    height: 68px;
+
+}
+
+.popular-item .item-body .item-title {
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.38;
+    /* identical to box height, or 138% */
+
+
+    color: #10375C;
+
+}
+
+.popular-item .item-body .desc {
+    margin-top: 28px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    /* or 175% */
+
+
+    color: #575F66;
+}
+
+.popular-item .item-body .popular-action {
+    margin-top: 18px;
+    display: block;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    /* identical to box height, or 175% */
+
+
+    color: #575F66;
+
+}
+
+.popular-item:hover{
+    margin-top: -16px;
+    background-color:#2E80CE;
+   
 }
